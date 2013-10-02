@@ -16,5 +16,11 @@ public class Main {
 	{
 		return 1000+((float)Math.random()*((9999.99f-1000)+1));
 	}
+	
+	public char generateFach()
+	{
+		char[] faecher={'d', 'e', 'm', 'g', 'l'};
+		return faecher[(int)(Math.random()*5)];
+	}
 
 }
