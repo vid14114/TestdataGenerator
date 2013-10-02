@@ -11,5 +11,10 @@ public class Main {
 	{
 		return 1000000000 + ((long)Math.random()*((9999999999l-1000000000)+1));
 	}
+	
+	public float generateGehalt()
+	{
+		return 1000+((float)Math.random()*((9999.99f-1000)+1));
+	}
 
 }
