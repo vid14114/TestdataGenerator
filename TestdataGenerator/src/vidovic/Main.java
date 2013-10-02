@@ -22,5 +22,22 @@ public class Main {
 		char[] faecher={'d', 'e', 'm', 'g', 'l'};
 		return faecher[(int)(Math.random()*5)];
 	}
+	
+	public String generateGebDatum()
+	{
+		String bday="";
+		int year=1950+((int)Math.random()*((1990-1950)+1));
+		bday+=year;
+		int month=1+((int)Math.random()*((12-1)+1));
+		if(month < 10)
+			bday+="0";
+		bday+=month;
+		int day=1+((int)Math.random()*((31-1)+1));
+		if(day < 10)
+			bday+="0";
+		bday+=day;
+		return bday;
+		
+	}
 
 }
