@@ -6,5 +6,10 @@ public class Main {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public long generateLehrerID()
+	{
+		return 1000000000 + ((long)Math.random()*((9999999999l-1000000000)+1));
+	}
 
 }
