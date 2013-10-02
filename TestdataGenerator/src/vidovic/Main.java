@@ -37,7 +37,13 @@ public class Main {
 			bday+="0";
 		bday+=day;
 		return bday;
-		
+	}
+	
+	public char generateFuehrerschein()
+	{
+		if(Math.random() > 0.5)
+			return 'j';
+		return 'n';
 	}
 
 }
