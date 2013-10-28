@@ -24,7 +24,7 @@ public class Main {
 		}
 		for(int i=0; i< num; i++)
 		{
-			File f=new File(path+"lehrer_"+year+month+(day+num));
+			File f=new File(path+"lehrer_"+year+month+(day+i));
 			BufferedWriter w=new BufferedWriter(new FileWriter(f));
 			w.write("LehrerID\tGehalt\tGebDatum\tFreierTag\tFach\tFührerschein\tSprechstunde\tGeschlecht\tRaum\tStunden_Tag\tStunden_Abend\tStunden_College");
 			w.newLine();
